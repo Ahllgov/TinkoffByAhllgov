@@ -14,6 +14,11 @@
 		70A4757926F67D3A00BD9D8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70A4757826F67D3A00BD9D8B /* Assets.xcassets */; };
 		70A4757C26F67D3A00BD9D8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70A4757B26F67D3A00BD9D8B /* Preview Assets.xcassets */; };
 		70A4757F26F67D3A00BD9D8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70A4757D26F67D3A00BD9D8B /* LaunchScreen.storyboard */; };
+		70A4758726F67DE500BD9D8B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A4758626F67DE500BD9D8B /* MainView.swift */; };
+		70A4758A26F67E7000BD9D8B /* PaymentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A4758926F67E7000BD9D8B /* PaymentsView.swift */; };
+		70A4758C26F67E9600BD9D8B /* ServicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A4758B26F67E9600BD9D8B /* ServicesView.swift */; };
+		70A4758E26F67EBB00BD9D8B /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A4758D26F67EBB00BD9D8B /* ChatView.swift */; };
+		70A4759026F67EC200BD9D8B /* OtherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A4758F26F67EC200BD9D8B /* OtherView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		70A4757B26F67D3A00BD9D8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		70A4757E26F67D3A00BD9D8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70A4758026F67D3A00BD9D8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70A4758626F67DE500BD9D8B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		70A4758926F67E7000BD9D8B /* PaymentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsView.swift; sourceTree = "<group>"; };
+		70A4758B26F67E9600BD9D8B /* ServicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesView.swift; sourceTree = "<group>"; };
+		70A4758D26F67EBB00BD9D8B /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		70A4758F26F67EC200BD9D8B /* OtherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 		70A4756E26F67D3800BD9D8B /* TinkoffByAhllgov */ = {
 			isa = PBXGroup;
 			children = (
+				70A4758826F67DF100BD9D8B /* View */,
 				70A4756F26F67D3800BD9D8B /* AppDelegate.swift */,
 				70A4757126F67D3800BD9D8B /* SceneDelegate.swift */,
 				70A4757326F67D3800BD9D8B /* ContentView.swift */,
@@ -76,6 +87,18 @@
 				70A4757B26F67D3A00BD9D8B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		70A4758826F67DF100BD9D8B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				70A4758626F67DE500BD9D8B /* MainView.swift */,
+				70A4758926F67E7000BD9D8B /* PaymentsView.swift */,
+				70A4758B26F67E9600BD9D8B /* ServicesView.swift */,
+				70A4758D26F67EBB00BD9D8B /* ChatView.swift */,
+				70A4758F26F67EC200BD9D8B /* OtherView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,9 +172,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				70A4757026F67D3800BD9D8B /* AppDelegate.swift in Sources */,
+				70A4758A26F67E7000BD9D8B /* PaymentsView.swift in Sources */,
+				70A4759026F67EC200BD9D8B /* OtherView.swift in Sources */,
 				70A4757226F67D3800BD9D8B /* SceneDelegate.swift in Sources */,
 				70A4757726F67D3800BD9D8B /* TinkoffByAhllgov.xcdatamodeld in Sources */,
+				70A4758E26F67EBB00BD9D8B /* ChatView.swift in Sources */,
+				70A4758726F67DE500BD9D8B /* MainView.swift in Sources */,
 				70A4757426F67D3800BD9D8B /* ContentView.swift in Sources */,
+				70A4758C26F67E9600BD9D8B /* ServicesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
