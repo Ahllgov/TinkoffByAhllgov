@@ -19,6 +19,7 @@
 		70A4758C26F67E9600BD9D8B /* ServicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A4758B26F67E9600BD9D8B /* ServicesView.swift */; };
 		70A4758E26F67EBB00BD9D8B /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A4758D26F67EBB00BD9D8B /* ChatView.swift */; };
 		70A4759026F67EC200BD9D8B /* OtherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A4758F26F67EC200BD9D8B /* OtherView.swift */; };
+		70BC9336270A04E200745AA1 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BC9335270A04E200745AA1 /* Services.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		70A4758B26F67E9600BD9D8B /* ServicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesView.swift; sourceTree = "<group>"; };
 		70A4758D26F67EBB00BD9D8B /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		70A4758F26F67EC200BD9D8B /* OtherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherView.swift; sourceTree = "<group>"; };
+		70BC9335270A04E200745AA1 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				70A4758626F67DE500BD9D8B /* MainView.swift */,
 				70A4758926F67E7000BD9D8B /* PaymentsView.swift */,
 				70A4758B26F67E9600BD9D8B /* ServicesView.swift */,
+				70BC9335270A04E200745AA1 /* Services.swift */,
 				70A4758D26F67EBB00BD9D8B /* ChatView.swift */,
 				70A4758F26F67EC200BD9D8B /* OtherView.swift */,
 			);
@@ -176,6 +179,7 @@
 				70A4759026F67EC200BD9D8B /* OtherView.swift in Sources */,
 				70A4757226F67D3800BD9D8B /* SceneDelegate.swift in Sources */,
 				70A4757726F67D3800BD9D8B /* TinkoffByAhllgov.xcdatamodeld in Sources */,
+				70BC9336270A04E200745AA1 /* Services.swift in Sources */,
 				70A4758E26F67EBB00BD9D8B /* ChatView.swift in Sources */,
 				70A4758726F67DE500BD9D8B /* MainView.swift in Sources */,
 				70A4757426F67D3800BD9D8B /* ContentView.swift in Sources */,
