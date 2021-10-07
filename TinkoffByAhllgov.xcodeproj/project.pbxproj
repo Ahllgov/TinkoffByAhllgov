@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7097854B270F5DFD0087FF2C /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7097854A270F5DFD0087FF2C /* Friend.swift */; };
 		70A4757026F67D3800BD9D8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A4756F26F67D3800BD9D8B /* AppDelegate.swift */; };
 		70A4757226F67D3800BD9D8B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A4757126F67D3800BD9D8B /* SceneDelegate.swift */; };
 		70A4757426F67D3800BD9D8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A4757326F67D3800BD9D8B /* ContentView.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7097854A270F5DFD0087FF2C /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 		70A4756C26F67D3800BD9D8B /* TinkoffByAhllgov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinkoffByAhllgov.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70A4756F26F67D3800BD9D8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70A4757126F67D3800BD9D8B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +53,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		70978549270F5DEA0087FF2C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7097854A270F5DFD0087FF2C /* Friend.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		70A4756326F67D3800BD9D8B = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +80,7 @@
 		70A4756E26F67D3800BD9D8B /* TinkoffByAhllgov */ = {
 			isa = PBXGroup;
 			children = (
+				70978549270F5DEA0087FF2C /* Model */,
 				70A4758826F67DF100BD9D8B /* View */,
 				70A4756F26F67D3800BD9D8B /* AppDelegate.swift */,
 				70A4757126F67D3800BD9D8B /* SceneDelegate.swift */,
@@ -184,6 +195,7 @@
 				70A4758726F67DE500BD9D8B /* MainView.swift in Sources */,
 				70A4757426F67D3800BD9D8B /* ContentView.swift in Sources */,
 				70A4758C26F67E9600BD9D8B /* ServicesView.swift in Sources */,
+				7097854B270F5DFD0087FF2C /* Friend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

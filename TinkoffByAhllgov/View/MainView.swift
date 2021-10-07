@@ -112,7 +112,9 @@ struct MainView: View {
                                         .background(LinearGradient(gradient: Gradient(colors: [Color(#colorLiteral(red: 0.2639923096, green: 0.5612514615, blue: 1, alpha: 1)),Color(#colorLiteral(red: 0.2031532824, green: 0.4292642772, blue: 0.7896229625, alpha: 1))]), startPoint: .top, endPoint: .bottom).frame(width: 50, height: 50).clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/))
                                     VStack(alignment: .leading, spacing: 5){
                                         Text("Счет Tinkoff Black")
+                                            .foregroundColor(.black)
                                         Text("468,13 ₽")
+                                            .foregroundColor(.black)
                                             .fontWeight(.bold)
                                     }
                                     .padding()
@@ -142,7 +144,9 @@ struct MainView: View {
                                         .background(LinearGradient(gradient: Gradient(colors: [Color(#colorLiteral(red: 0.2639923096, green: 0.5612514615, blue: 1, alpha: 1)),Color(#colorLiteral(red: 0.2031532824, green: 0.4292642772, blue: 0.7896229625, alpha: 1))]), startPoint: .top, endPoint: .bottom).frame(width: 50, height: 50).clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/))
                                     VStack(alignment: .leading, spacing: 5){
                                         Text("Счет USD Tinkoff Black")
+                                            .foregroundColor(.black)
                                         Text("300 $")
+                                            .foregroundColor(.black)
                                             .fontWeight(.bold)
                                     }
                                     .padding()
@@ -177,7 +181,9 @@ struct MainView: View {
                                         .background(LinearGradient(gradient: Gradient(colors: [Color(#colorLiteral(red: 0.2639923096, green: 0.5612514615, blue: 1, alpha: 1)),Color(#colorLiteral(red: 0.2031532824, green: 0.4292642772, blue: 0.7896229625, alpha: 1))]), startPoint: .top, endPoint: .bottom).frame(width: 50, height: 50).clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/))
                                     VStack(alignment: .leading, spacing: 5){
                                         Text("Кредитный счет Платинум")
+                                            .foregroundColor(.black)
                                         Text("50 000 ₽")
+                                            .foregroundColor(.black)
                                             .fontWeight(.bold)
                                     }
                                     .padding()

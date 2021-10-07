@@ -100,7 +100,7 @@ struct PaymentsView: View {
                                     Image(systemName: "person.crop.circle.fill")
                                         .font(.system(size: 25, weight: .heavy, design: .rounded))
                                         .foregroundColor(.white)
-                                        .background(LinearGradient(gradient: Gradient(colors: [Color(#colorLiteral(red: 0.2639923096, green: 0.5612514615, blue: 1, alpha: 1)),Color(#colorLiteral(red: 0.2031532824, green: 0.4292642772, blue: 0.7896229625, alpha: 1))]), startPoint: .top, endPoint: .bottom).frame(width: 50, height: 50).clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/))
+                                        .background(LinearGradient(gradient: Gradient(colors: [Color(#colorLiteral(red: 0.2639923096, green: 0.5612514615, blue: 1, alpha: 1)),Color(#colorLiteral(red: 0.2031532824, green: 0.4292642772, blue: 0.7896229625, alpha: 1))]), startPoint: .top, endPoint: .bottom).frame(width: 50, height: 50).clipShape(Circle()))
                                     Text("Имя Фамилия")
                                         .multilineTextAlignment(.center)
                                         .font(.system(size: 10))
